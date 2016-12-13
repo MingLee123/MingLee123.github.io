@@ -1,3 +1,11 @@
+#ogolny {
+background-color: grey;
+text-align: center;
+float: none;
+padding: auto;
+margin: auto;
+width: auto;
+}
 #logo {
 background-color: grey;
 color: blue;
@@ -30,10 +38,10 @@ margin: 2% 0% 2% 0%;
 }
 #stopka {
 height: 100px;
-float: none;
+clear: both;
 position: relative;
-top: 300px;
+top: 100px;
 background-color: grey;
 color: black;
-text-align: left;
+text-align: center;
 }
