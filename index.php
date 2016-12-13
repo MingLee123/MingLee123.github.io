@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="plik1.css">
+<link rel="stylesheet" type="text/css" href="/plik1.css"/>
 </head>
 <body>
 <div id="logo">
@@ -8,9 +8,9 @@ LOGO
 </div>
 <div id="lewa">
 <ul>
-<li><a href="index.php">Strona G³ówna</a></li>
+<li><a href="index.php">Strona GÂ³Ã³wna</a></li>
 <li><a href="index.php?strona=form"">Formularz</a></li>
-<li><a href="index.php?strona=sesja">Zawartoœæ sesji</a></li>
+<li><a href="index.php?strona=sesja">ZawartoÅ“Ã¦ sesji</a></li>
 </ul>
 </div>
 <div id="srodek">
@@ -20,14 +20,14 @@ case form:
 ?>
 <FORM method="post" action="">
 <TABLE>
-<tr><td>Imiê:</td><td><input type=text name="name"></td></tr>
+<tr><td>ImiÃª:</td><td><input type=text name="name"></td></tr>
 <tr><td>Nazwisko:</td><td><input type=text name="lastname"></td></tr>
-<tr><td>P³eæ:</td><td><input type=radio name="gender" value="female"> kobieta<br><input type=radio name="gender" value="male"> mê¿czyzna</td></tr>
-<tr><td>Nazwisko panieñskie:</td><td><input type=text></td></tr>
+<tr><td>PÂ³eÃ¦:</td><td><input type=radio name="gender" value="female"> kobieta<br><input type=radio name="gender" value="male"> mÃªÂ¿czyzna</td></tr>
+<tr><td>Nazwisko panieÃ±skie:</td><td><input type=text></td></tr>
 <tr><td>Email:</td><td><input type=text></td></tr>
 <tr><td>Kod pocztowy:</td><td><input type=text></td></tr>
 </TABLE>
-<input type="submit" value="Wyœlij">
+<input type="submit" value="WyÅ“lij">
 </FORM>
 <?php
 break;
@@ -35,7 +35,7 @@ case sesja:
 	echo "sesja";
 	break;
 default:
-	echo "Strona g³ówna";
+	echo "Strona gÂ³Ã³wna";
 	break;
 }
 ?>
